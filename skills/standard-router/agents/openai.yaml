@@ -1,0 +1,8 @@
+interface:
+  display_name: "Маршрутизатор стандартов"
+  short_description: "Для рабочих и продуктовых проблем находит и применяет методы из вашей библиотеки стандартов"
+  default_prompt: "Используй $standard-router: найди в моих стандартах подход к этой задаче и примени его."
+policy:
+  products:
+    - CODEX
+  allow_implicit_invocation: true
